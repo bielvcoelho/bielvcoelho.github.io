@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<curriculo>
+
+    <dados_pessoais>
+
+        <nome>Elon Musk</nome>
+        <data_nascimento>01/01/1970 </data_nascimento>
+        <email>elon@mail.com</email>
+        <telefone>(83) 9999-9999</telefone>
+        <sobre> 
+            Mussum Ipsum, cacilds vidis litro abertis.  Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Si num tem leite então bota uma pinga aí cumpadi! Sapien in monti palavris qui num significa nadis i pareci latim. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
+            Delegadis gente finis, bibendum egestas augue arcu ut est. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. 
+        </sobre>
+
+        <endereco> Endereço </endereco>
+
+        <rua> Rua Av. 1° de Maio, 720 </rua>
+        <cidade> João Pessoa, PB</cidade>
+        <bairro> Jaguaribe </bairro>    
+
+    </dados_pessoais>
+
+
+    <dados_profissionais>
+
+         <experiencia> Experiência </experiencia>
+
+        <spacex> SpaceX: CEO e CTO - 2016 - Atual </spacex>
+        <tesla> Tesla: CEO - 2014 - Atual </tesla>
+
+        <competencia> Competências </competencia>
+        <competencias> JavaScript - CSS - HTML - XML</competencias>
+
+    </dados_profissionais>
+
+
+    <dados_academicos>
+
+        <formacao> Formação Acadêmica </formacao>
+
+
+
+    </dados_academicos>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</curriculo>
