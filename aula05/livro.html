@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <button class="voltar"><a href="index.html">Voltar</a></button>
+    
+    <div class="faixa">
+        
+        <h1 id="inicio" class="inicio">Fundamentos da Web</h1>
+        <p class="inicio">Cadastro de Livros</p>
+
+    </div>
+
+    <br><br><br>
+
+    <h1 class="h1_form">Cadastro de Livros</h1>
+    <form id="cadastro" method="post" action>
+
+        <fieldset>
+
+            <label for="#titulo">Titulo:</label>
+            <input type="text" id="titulo" placeholder="Digite o Titulo do Livro:">
+
+            <br><br>
+
+            <label for="#descricao">Descrição:</label>
+            <input type="text" id="descricao" placeholder="Digite a Descrição do Livro:">
+
+            <br><br>
+
+            <label for="#autores">Autores:</label>
+            <input type="text" id="autores" placeholder="Digite os Autores do Livro:">
+
+            <br><br>
+
+            <label for="#estilo">Estilo:</label>
+            <select id="estilo">
+
+                <option>Academico</option>
+
+            </select>
+
+            <br><br><br><br>
+
+             <div class="card">
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+
+            </div>
+
+        </fieldset>
+
+    </form>
+
+    </body>
+    </html>
