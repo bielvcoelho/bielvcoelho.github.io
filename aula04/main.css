@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+header, footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 40px;
+}
+
+header::first-line{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.row{
+    /* display: flex; */
+    flex-direction: row;
+}
+header .row {
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.navbar li:first-child a{
+    background-color: orangered;
+    border-radius: 10px;
+}
+.navbar li:first-child a:hover{
+    color: #000;
+}
+
+.navbar a {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.navbar a:hover{
+    color: orangered;
+}
+
+.laranja{
+    background-color: orangered;
+    color: #000;
+    padding: 20px 0px 35px;
+    font-size: 20px;
+}
+
+.orange{
+    width: 50%;
+    margin: auto;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 65%;
+    height: 35px;
+    border-radius: 20px;
+}
+button a:hover{
+    color:#000;
+}
+
+
+main{
+    background-color: rgb(230, 230, 230);
+}
+
+.card-list, .rodape{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card{
+    margin: 0 10px; /* Adicione margem horizontal para criar espaçamento entre os cards */
+    border-radius: 5px;
+    padding: 20px 15px;
+}
+
+footer{
+    padding-bottom: 10px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente as divs com a classe .card */
+}
+
+.card-rodape {
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente as imagens dentro de .card */
+    align-items: center; /* Centralize verticalmente as imagens dentro de .card */
+}
+
+.card-rodape img {
+    width: 60px;
+    max-width: 100%; /* Evita que as imagens ultrapassem o tamanho do contêiner .card */
+    margin: 10px; /* Adicione margem para criar espaçamento entre as imagens */
+}
+
+.mais{
+    font-size: 300px;
+    color: rgb(255, 0, 0);
+}
+.mais:hover{
+    color: blue;
+}
