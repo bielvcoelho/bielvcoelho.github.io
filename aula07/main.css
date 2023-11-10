@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+
+.receita__figura{
+    width: 15%;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.receita{
+    padding-bottom: 50px;
+}
